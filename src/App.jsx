@@ -1,5 +1,6 @@
 import Header from "./components/Header";
 import Hero from "./components/Hero";
+import Skills from "./components/Skills";
 
 
 const App = () => {
@@ -8,6 +9,7 @@ const App = () => {
       <div className="rad-gradient absolute top-0 z-[-2] h-screen w-full bg-black overflow-x-hidden"></div>
       <Header />
       <Hero />
+      <Skills />
     </main>
   )
 };

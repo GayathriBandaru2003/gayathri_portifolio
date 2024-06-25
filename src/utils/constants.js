@@ -1,4 +1,4 @@
-import { FaGithub } from "react-icons/fa";
+
 
 export const techStack = [
     {
@@ -44,7 +44,6 @@ export const techStack = [
     {
         name: "Github",
         imgLogo: null,
-        elem: <FaGithub />
     },
     {
         name: "Git",

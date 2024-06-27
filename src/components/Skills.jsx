@@ -3,6 +3,7 @@ import { techStack } from "../utils/constants"
 import { FaGithub } from "react-icons/fa";
 
 
+
 const Skills = () => {
 
     useEffect(() => {
@@ -10,16 +11,11 @@ const Skills = () => {
 
         function addAnimation() {
             marquees.forEach((marquee) => {
-              // add data-animated="true" to every `.marquee` on the page
               marquee.setAttribute("data-animated", true);
-          
-              // Make an array from the elements within `.marquee-inner`
+      
               const marqueeInner = marquee.querySelector(".marquee-inner");
               const marqueeContent = Array.from(marqueeInner.children);
-          
-              // For each item in the array, clone it
-              // add aria-hidden to it
-              // add it into the `.marquee-inner`
+        
               marqueeContent.forEach((item) => {
                 const duplicatedItem = item.cloneNode(true);
                 duplicatedItem.setAttribute("aria-hidden", true);
@@ -56,16 +52,18 @@ const Skills = () => {
         <div className="marquee max-w-[70vw] mx-auto overflow-hidden">
             <div className="marquee-inner">
                 {techStack.map((skill) => (
-                    <div className="min-w-fit flex items-center gap-x-2 p-2 rounded-md bg-slate-900" key={skill?.name}>
+                    <div className="min-w-fit flex items-center gap-x-2 py-[6px] px-2 rounded-md bg-black border-fuchsia-500 border-[1px] 
+                    drop-shadow-[0_0_4px_#f0abfc]" key={skill?.name}>
                         {skill?.imgLogo && (
                             <img className="w-8 h-8"
                               src={skill?.imgLogo}
+                              alt="skill logo"
                             />
                         )}
                         {skill?.imgLogo === null && (
-                            <span className="text-white text-2xl"><FaGithub /></span>
+                            <span className="text-white text-3xl"><FaGithub /></span>
                         )}
-                        <span className="text-white text-lg">{skill?.name}</span>
+                        <span className="text-white text-lg font-light">{skill?.name}</span>
                     </div>
                 ))}
             </div>
@@ -73,16 +71,18 @@ const Skills = () => {
         <div className="marquee max-w-[70vw] mx-auto overflow-hidden" data-direction="right">
             <div className="marquee-inner">
                 {techStack.map((skill) => (
-                    <div className="min-w-fit flex items-center gap-x-2 p-2 rounded-md bg-slate-900" key={skill?.name}>
+                    <div className="min-w-fit flex items-center gap-x-2 py-[6px] px-2 rounded-md bg-black border-fuchsia-500 border-[1px] 
+                    drop-shadow-[0_0_4px_#f0abfc]" key={skill?.name}>
                         {skill?.imgLogo && (
                             <img className="w-8 h-8"
                               src={skill?.imgLogo}
+                              alt="skill logo"
                             />
                         )}
                         {skill?.imgLogo === null && (
-                            <span className="text-white text-2xl"><FaGithub /></span>
+                            <span className="text-white text-3xl"><FaGithub /></span>
                         )}
-                        <span className="text-white text-lg">{skill?.name}</span>
+                        <span className="text-white text-lg font-light">{skill?.name}</span>
                     </div>
                 ))}
             </div>

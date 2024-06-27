@@ -18,6 +18,14 @@ export const techStack = [
         imgLogo: "https://res.cloudinary.com/dencbmqyy/image/upload/v1719146257/tailwindcss_plb3nl.webp",
     },
     {
+        name: "Jest",
+        imgLogo: "https://res.cloudinary.com/dencbmqyy/image/upload/v1719387162/jest-48_alelk8.webp",
+    },
+    {
+        name: "Postman",
+        imgLogo: "https://res.cloudinary.com/dencbmqyy/image/upload/v1719373181/postman-48_vfban0.webp",
+    },
+    {
         name: "HTML5",
         imgLogo: "https://res.cloudinary.com/dencbmqyy/image/upload/v1719146164/html-48_daxcel.webp",
     },
@@ -31,7 +39,7 @@ export const techStack = [
     },
     {
         name: "Vercel",
-        imgLogo: "https://res.cloudinary.com/dencbmqyy/image/upload/v1719146258/vercel_mngfzo.webp",
+        imgLogo: "https://res.cloudinary.com/dencbmqyy/image/upload/v1719375624/vercel_p2haen.webp",
     },
     {
         name: "Netlify",
@@ -54,3 +62,5 @@ export const techStack = [
         imgLogo: "https://res.cloudinary.com/dencbmqyy/image/upload/v1719146148/firebase-48_mx4hro.webp",
     }
 ];
+
+export const userPhoto = "https://res.cloudinary.com/dencbmqyy/image/upload/v1719387162/Anurag_photo_xdbb8z.webp";

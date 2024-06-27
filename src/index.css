@@ -40,7 +40,7 @@
 .marquee[data-animated="true"] .marquee-inner {
     width: max-content;
     flex-wrap: nowrap;
-    animation: scroll 40s
+    animation: scroll 30s
       var(--_animation-direction, forwards) linear infinite;
 }
 

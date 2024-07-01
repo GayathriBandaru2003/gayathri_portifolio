@@ -63,4 +63,4 @@ export const techStack = [
     }
 ];
 
-export const userPhoto = "https://res.cloudinary.com/dencbmqyy/image/upload/v1719387162/Anurag_photo_xdbb8z.webp";
+export const userPhoto = "https://res.cloudinary.com/dencbmqyy/image/upload/v1719473631/Anurag_photo_uzkttp.webp";

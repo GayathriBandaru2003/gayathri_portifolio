@@ -64,3 +64,11 @@ export const techStack = [
 ];
 
 export const userPhoto = "https://res.cloudinary.com/dencbmqyy/image/upload/v1719473631/Anurag_photo_uzkttp.webp";
+
+export const projectList = [
+    {
+        name: "FoodKart | Online Food Ordering Web App",
+        description: "FoodKart is the ultimate food ordering app that brings the best of dining experiences right to your fingertips! Powered by Swiggy's Desktop robust API, FoodKart offers a delectable journey through a myriad of culinary delights, all within the comfort of your own home.",
+        image: "https://res.cloudinary.com/dencbmqyy/image/upload/v1720338204/foodkartproject_fptcvb.webp",
+    },
+];

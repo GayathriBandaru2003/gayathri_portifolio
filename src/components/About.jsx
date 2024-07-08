@@ -5,7 +5,7 @@ const About = () => {
   return (
     <section className="text-[#f8fafc] py-10 mx-10 md:mx-24 lg:mx-24 xl:mx-44 2xl:mx-56 px-4" id="about">
         <div className="min-h-fit">
-            <div className="rounded-t-[48px] bg-gradient-to-b from-fuchsia-800 to-black w-full overflow-x-hidden">
+            <div className="rounded-t-3xl md:rounded-t-[48px] bg-gradient-to-b from-fuchsia-800 to-black w-full overflow-x-hidden">
                 <h1 className="my-6 text-4xl font-normal text-center">Who am I?</h1>
                 <div className="flex flex-col lg:flex-row justify-around items-center px-4 pb-6">
                     <div className="w-full lg:w-1/3 flex items-center justify-center m-2">

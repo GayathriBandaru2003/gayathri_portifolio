@@ -14,12 +14,16 @@ const Project = () => {
                     <div className="px-6 pt-6 lg:px-8 lg:pt-8 text-sm font-light">
                         <p className="mb-3">{project?.description}</p>
                         <div className="flex justify-center gap-x-3 sm:justify-start">
-                            <button className="flex gap-x-1 items-center justify-center border-slate-400 border-[1px] px-2 py-1 rounded-sm hover:bg-fuchsia-600 hover:border-fuchsia-600 hover:font-normal">
-                                <span><HiOutlineStatusOnline /></span>Demo
-                            </button>
-                            <button className="flex gap-x-1 items-center justify-center border-slate-400 border-[1px] px-2 py-1 rounded-sm hover:bg-fuchsia-600 hover:border-fuchsia-600 hover:font-normal">
-                                <span><FaCode /></span>Code
-                            </button>
+                            <a href={project?.demoLink} target="_blank" rel="noopener noreferrer">
+                                <button className="flex gap-x-1 items-center justify-center border-slate-400 border-[1px] px-2 py-1 rounded-sm hover:bg-fuchsia-600 hover:border-fuchsia-600 hover:font-normal">
+                                    <span><HiOutlineStatusOnline /></span>Demo
+                                </button>
+                            </a>
+                            <a href={project?.githubLink} target="_blank" rel="noopener noreferrer">
+                                <button className="flex gap-x-1 items-center justify-center border-slate-400 border-[1px] px-2 py-1 rounded-sm hover:bg-fuchsia-600 hover:border-fuchsia-600 hover:font-normal">
+                                    <span><FaCode /></span>Code
+                                </button>
+                            </a>
                         </div>
                     </div>
                     <div className="w-full h-auto">

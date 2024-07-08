@@ -3,7 +3,7 @@ import { userPhoto } from "../utils/constants"
 
 const About = () => {
   return (
-    <section className="text-[#f8fafc] py-10 mx-10 md:mx-24 lg:mx-24 xl:mx-44 2xl:mx-56 px-4" id="about">
+    <section className="text-[#f8fafc] py-10 max-w-[80vw] md:w-[70vw] md:max-w-[956px] mx-auto" id="about">
         <div className="min-h-fit">
             <div className="rounded-t-3xl md:rounded-t-[48px] bg-gradient-to-b from-fuchsia-800 to-black w-full overflow-x-hidden">
                 <h1 className="my-6 text-4xl font-normal text-center">Who am I?</h1>

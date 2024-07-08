@@ -5,7 +5,7 @@ import { FaCode } from "react-icons/fa6";
 
 const Project = () => {
   return (
-    <section className="max-w-[80vw] md:max-w-[70vw] mx-auto overflow-hidden flex flex-col items-center text-[#f8fafc] mb-10" id="projects">
+    <section className="max-w-[80vw] md:w-[70vw] md:max-w-[956px] mx-auto overflow-hidden flex flex-col items-center text-[#f8fafc] mb-10" id="projects">
         <h1 className="my-6 text-4xl font-normal text-center">Projects</h1>
         {projectList.map((project) => (
             <article key={project?.name}>

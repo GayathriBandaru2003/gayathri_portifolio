@@ -49,7 +49,7 @@ const Skills = () => {
   return (
     <section className="flex flex-col items-center bg-black text-[#f8fafc] pt-10 md:pt-20 pb-10" id="skills">
         <h1 className="mb-6 text-4xl font-normal">Skills</h1>
-        <div className="marquee max-w-[70vw] mx-auto overflow-hidden">
+        <div className="marquee max-w-[80vw] md:w-[70vw] md:max-w-[956px] mx-auto overflow-hidden">
             <div className="marquee-inner">
                 {techStack.map((skill) => (
                     <div className="min-w-fit flex items-center gap-x-2 py-[6px] px-2 rounded-md bg-black border-fuchsia-500 border-[1px] 
@@ -68,7 +68,7 @@ const Skills = () => {
                 ))}
             </div>
         </div>
-        <div className="marquee max-w-[70vw] mx-auto overflow-hidden" data-direction="right">
+        <div className="marquee max-w-[80vw] md:w-[70vw] md:max-w-[956px] mx-auto overflow-hidden" data-direction="right">
             <div className="marquee-inner">
                 {techStack.map((skill) => (
                     <div className="min-w-fit flex items-center gap-x-2 py-[6px] px-2 rounded-md bg-black border-fuchsia-500 border-[1px] 

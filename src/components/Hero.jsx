@@ -5,9 +5,9 @@ import Typewriter from "typewriter-effect";
 
 const Hero = () => {
   return (
-    <section className="w-full relative z-10 overflow-x-hidden flex flex-col items-center md:flex md:flex-row justify-between py-8 mx-auto text-white border-white border-0">
+    <section className="max-w-full xl:max-w-[1350px] relative z-10 overflow-x-hidden flex flex-col items-center md:flex md:flex-row justify-between py-8 mx-auto text-white border-white border-0">
         <div className="w-full md:w-1/2 flex flex-col gap-y-7 items-center md:items-start contai justify-center py-8 px-8 mx-10 md:mx-0 lg:mx-6 border-white border-0">
-            <h1 className="bg-gradient-to-r from-fuchsia-500 to-rose-400 text-transparent text-center md:text-left bg-clip-text text-4xl md:text-3xl xl:text-4xl 2xl:text-5xl font-semibold">
+            <h1 className="bg-gradient-to-r from-fuchsia-500 to-rose-400 text-transparent text-center md:text-left bg-clip-text text-4xl md:text-3xl xl:text-4xl font-semibold">
                 <span className="text-white font-light">Hey,</span> I am Anurag Verma
             </h1>
             <p className="text-sky-500 text-xl xl:text-2xl font-medium flex">

@@ -1,4 +1,4 @@
-
+import Swal from 'sweetalert2';
 
 const Contact = () => {
 
@@ -17,7 +17,15 @@ const Contact = () => {
     
         if (data.success) {
           event.target.reset();
-          console.log("success", data);
+          Swal.fire({
+            title: "Success!",
+            width: 350,
+            timer: 3000,
+            padding: "0 0 1em",
+            iconColor: "#4ade80",
+            text: "Message sent successfully!",
+            icon: "success"
+          });
         } else {
           console.log("Error", data);
         }

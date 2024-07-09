@@ -46,20 +46,20 @@ const Contact = () => {
                     <div className="w-full flex justify-center sm:justify-start">
                         <div className="w-11/12 sm:w-full flex flex-col">
                             <label htmlFor="name">Name</label>
-                            <input id="name" type="text" name="name" placeholder="Jon Snow" required className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-sm text-sm"/>
+                            <input id="name" type="text" name="name" placeholder="Jon Snow" required className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-xs sm:placeholder:text-sm text-sm"/>
                         </div>
                     </div>
                     <div className="w-full flex justify-center sm:justify-start">
                         <div className="w-11/12 sm:w-full flex flex-col">
                             <label htmlFor="email">Email Address</label>
-                            <input id="email" type="email" name="email" placeholder="kinginthenorth@example.com" required className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-sm text-sm"/>
+                            <input id="email" type="email" name="email" placeholder="kinginthenorth@example.com" required className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-xs sm:placeholder:text-sm text-sm"/>
                         </div>
                     </div>
                 </div>
                 <div className="w-full flex justify-center sm:justify-start">
                     <div className="w-11/12 sm:w-full flex flex-col mb-6">
                         <label htmlFor="message">Message</label>
-                        <textarea id="message" name="message" cols="30" rows="6" placeholder="Enter your message" className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-sm text-sm"></textarea>
+                        <textarea id="message" name="message" cols="30" rows="6" placeholder="Enter your message" className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-xs sm:placeholder:text-sm text-sm"></textarea>
                     </div>
                 </div>
                 <div className="flex justify-end">

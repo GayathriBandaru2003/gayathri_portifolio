@@ -15,12 +15,12 @@ const Project = () => {
                         <p className="mb-3">{project?.description}</p>
                         <div className="flex justify-center gap-x-3 sm:justify-start">
                             <a href={project?.demoLink} target="_blank" rel="noopener noreferrer">
-                                <button className="flex gap-x-1 items-center justify-center border-slate-400 border-[1px] px-2 py-1 rounded-sm hover:bg-fuchsia-600 hover:border-fuchsia-600 hover:font-normal">
+                                <button className="flex gap-x-1 items-center justify-center border-[1px] px-2 py-1 rounded-sm bg-fuchsia-600 hover:bg-fuchsia-700 border-fuchsia-600 font-normal">
                                     <span><HiOutlineStatusOnline /></span>Demo
                                 </button>
                             </a>
                             <a href={project?.githubLink} target="_blank" rel="noopener noreferrer">
-                                <button className="flex gap-x-1 items-center justify-center border-slate-400 border-[1px] px-2 py-1 rounded-sm hover:bg-fuchsia-600 hover:border-fuchsia-600 hover:font-normal">
+                                <button className="flex gap-x-1 items-center justify-center border-zinc-700 border-[1px] px-2 py-1 rounded-sm bg-zinc-700 hover:bg-zinc-800 hover:border-zinc-800 font-normal">
                                     <span><FaCode /></span>Code
                                 </button>
                             </a>

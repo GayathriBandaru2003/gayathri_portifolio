@@ -16,11 +16,11 @@ const About = () => {
                         <br />
                         <p>Although I'm at the beginning of my journey with zero experience, my passion for JavaScript and design fuels my hunger to learn and grow in this exciting field.</p>
                         <br />
-                        <p>By passion, I'm a Cricket aficionado, Melophile, and a JavScript enthusiast.</p>
+                        <p>By passion, I'm a Cricket aficionado, Melophile, and a JavaScript enthusiast.</p>
                         <br />
                         <p>I'm actively seeking opportunities to kickstart my career and collaborate on innovative projects.</p>
                         <br />
-                        <p>Let's <span className="font-medium">connect</span> and build something amazing together!</p>
+                        <p>Let's <a href="#contact"className="font-medium">connect</a> and build something amazing together!</p>
                     </div>
                     
                 </div>

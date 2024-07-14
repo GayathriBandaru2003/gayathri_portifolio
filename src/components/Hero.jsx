@@ -2,6 +2,7 @@ import { FaLinkedin } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaSquareXTwitter } from "react-icons/fa6";
 import Typewriter from "typewriter-effect";
+import { heroImage } from "../utils/constants";
 
 const Hero = () => {
   return (
@@ -51,7 +52,7 @@ const Hero = () => {
             </div>
         </div>
         <div className="w-full md:w-1/2 flex items-center justify-center border-white border-0 py-8 mx-10 md:mx-0 lg:mx-6">
-            <img className="mx-auto w-full sm:w-4/5 lg:w-3/5 cover" src="../../Code typing-bro.svg" alt="developer"/>
+            <img className="mx-auto w-full sm:w-4/5 lg:w-3/5 cover" src={heroImage} alt="developer"/>
         </div>
         
     </section>

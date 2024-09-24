@@ -74,5 +74,13 @@ export const projectList = [
         image: "https://res.cloudinary.com/dencbmqyy/image/upload/v1720338204/foodkartproject_fptcvb.webp",
         githubLink: "https://github.com/Anurag-verma18/Food-Kart",
         demoLink: "https://foodkart24.netlify.app/",
+    },  
+    {
+        name: "Showlex | Streaming Media Service",
+        description: "Showlex is a streaming media service offering a vast collection of TV shows from around the globe. With a seamless user experience, crystal-clear streaming, users are guaranteed to find their next binge-worthy favorite. Dive into endless entertainment, explore rich content, and enjoy full seasons of exclusive streaming series, current-season episodes, and more.",
+        image: "https://res.cloudinary.com/dencbmqyy/image/upload/v1727156495/showlex_project_kcpjee.webp",
+        githubLink: "https://github.com/Anurag-verma18/Netflix-GPT-2.0",
+        demoLink: "https://showlex12.netlify.app/",
     },
 ];
+

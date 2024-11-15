@@ -1,5 +1,5 @@
 
-
+import profileImg from "../utils/profile_img.png";
 export const techStack = [
     {
         name: "ReactJs",
@@ -65,7 +65,7 @@ export const techStack = [
 
 export const heroImage = "https://res.cloudinary.com/dencbmqyy/image/upload/v1720939260/Code-typing_isoltl.webp";
 
-export const userPhoto = "https://res.cloudinary.com/dencbmqyy/image/upload/v1719473631/Anurag_photo_uzkttp.webp";
+export const userPhoto = profileImg;
 
 export const projectList = [
     {

@@ -12,7 +12,7 @@ const Header = () => {
   return (
     <nav className="max-w-full xl:max-w-[1350px] mx-auto sticky z-20 flex flex-col md:flex-row items-center justify-between text-white pt-5 pb-0 md:pt-5 md:pb-5 px-16">
         <div className='w-full md:w-auto flex items-center justify-between'>
-            <div className="font-semibold text-pink-600 text-xl md:text-2xl">AV</div>
+            <div className="font-semibold text-pink-600 text-xl md:text-2xl">Gayathri</div>
             <button className='md:hidden text-xl cursor-pointer text-white' onClick={toggleLinks}>
                 {showLinks ? <IoClose /> : <IoMenu />}
             </button>

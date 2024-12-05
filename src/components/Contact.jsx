@@ -46,13 +46,13 @@ const Contact = () => {
                     <div className="w-full flex justify-center sm:justify-start">
                         <div className="w-11/12 sm:w-full flex flex-col">
                             <label htmlFor="name">Name</label>
-                            <input id="name" type="text" name="name" placeholder="Jon Snow" required className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-xs sm:placeholder:text-sm text-sm"/>
+                            <input id="name" type="text" name="name" placeholder="Gayathri" required className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-xs sm:placeholder:text-sm text-sm"/>
                         </div>
                     </div>
                     <div className="w-full flex justify-center sm:justify-start">
                         <div className="w-11/12 sm:w-full flex flex-col">
                             <label htmlFor="email">Email Address</label>
-                            <input id="email" type="email" name="email" placeholder="kinginthenorth@example.com" required className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-xs sm:placeholder:text-sm text-sm"/>
+                            <input id="email" type="email" name="email" placeholder="gayathri.techlead123@example.com" required className="w-full px-3 py-2 rounded-sm mt-2 bg-[rgb(5,5,5)] border-none outline-none placeholder:text-xs sm:placeholder:text-sm text-sm"/>
                         </div>
                     </div>
                 </div>

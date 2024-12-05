@@ -68,18 +68,18 @@ export const heroImage = "https://res.cloudinary.com/dencbmqyy/image/upload/v172
 export const userPhoto = profileImg;
 
 export const projectList = [
-    {
-        name: "FoodKart | Online Food Ordering Web App",
-        description: "FoodKart is the ultimate food ordering app that brings the best of dining experiences right to your fingertips! Powered by Swiggy's Desktop robust API, FoodKart offers a delectable journey through a myriad of culinary delights, all within the comfort of your own home.",
-        image: "https://res.cloudinary.com/dencbmqyy/image/upload/v1720338204/foodkartproject_fptcvb.webp",
-        githubLink: "https://github.com/Anurag-verma18/Food-Kart",
-        demoLink: "https://foodkart24.netlify.app/",
-    },  
+    // {
+    //     name: "FoodKart | Online Food Ordering Web App",
+    //     description: "FoodKart is the ultimate food ordering app that brings the best of dining experiences right to your fingertips! Powered by Swiggy's Desktop robust API, FoodKart offers a delectable journey through a myriad of culinary delights, all within the comfort of your own home.",
+    //     image: "https://res.cloudinary.com/dencbmqyy/image/upload/v1720338204/foodkartproject_fptcvb.webp",
+    //     githubLink: "https://github.com/Anurag-verma18/Food-Kart",
+    //     demoLink: "https://foodkart24.netlify.app/",
+    // },  
     {
         name: "Showlex | Streaming Media Service",
         description: "Showlex is a streaming media service offering a vast collection of TV shows from around the globe. With a seamless user experience, crystal-clear streaming, users are guaranteed to find their next binge-worthy favorite. Dive into endless entertainment, explore rich content, and enjoy full seasons of exclusive streaming series, current-season episodes, and more.",
         image: "https://res.cloudinary.com/dencbmqyy/image/upload/v1727156495/showlex_project_kcpjee.webp",
-        githubLink: "https://github.com/Anurag-verma18/Netflix-GPT-2.0",
+        githubLink: "https://github.com/GayathriBandaru2003/ShowTime.git",
         demoLink: "https://showlex12.netlify.app/",
     },
 ];

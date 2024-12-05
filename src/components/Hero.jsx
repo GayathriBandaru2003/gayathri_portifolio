@@ -43,7 +43,7 @@ const Hero = () => {
             </nav>
             
             <div className="text-sm lg:text-base bg-black rounded-full border-fuchsia-500 border-[1px] drop-shadow-[0_0_8px_#f0abfc] text-center text-pretty mt-2 py-2 px-8">
-                <a href="mailto:anuragkrverma18@gmail.com">
+                <a href="mailto: gayathribandaru2003@gmail.com">
                     gayathribandaru2003@gmail.com
                 </a>
             </div>

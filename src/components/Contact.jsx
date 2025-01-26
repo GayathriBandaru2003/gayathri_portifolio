@@ -36,7 +36,7 @@ const Contact = () => {
         <h1 className="my-6 text-4xl font-normal text-center">Contact Me</h1>
         <article className="min-h-fit flex flex-col items-center bg-[rgb(20,19,19)] rounded-xl overflow-hidden px-6 py-6 lg:px-8 lg:py-8 text-base font-light">
             <div className="w-full md:max-w-[624px] xs:px-6 sm:px-10 md:px-0 text-sm font-light mb-8">
-                <p>Whether you want to delve into the lore of Game of Thrones, share your favorite mountain trails, or discuss reconciliation in React, I'm all ears! Hit me up on <a href="https://x.com/Anurag__V" target="_blank" rel="noopener noreferrer" className="text-fuchsia-500 no-underline font-normal hover:text-fuchsia-600">Twitter</a> anytime.
+                <p>
                 </p>
                 <br />
                 <p>For a more formal approach, please complete the contact form below. I assure you a response promptly. Looking forward to hearing from you!</p>
